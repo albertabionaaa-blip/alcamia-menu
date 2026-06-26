@@ -1,0 +1,19 @@
+alcamia-menu/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── favicon.png
+│
+├── images/
+│   ├── logo.png              ← Your circular logo
+│   ├── hero-banner.png       ← Your transparent banner
+│   ├── menu.jpg              ← Full menu image
+│   ├── black-sambo.jpg
+│   ├── baked-sushi.jpg
+│   ├── kutsinta.jpg
+│   ├── cassava-cake.jpg
+│   └── creamy-empanada.jpg
+│
+└── .nojekyll
