@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#6B0F1A">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Alcamia">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alcamia Homemade Goodness</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Lobster&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#fff7ef;
+font-family:Poppins,sans-serif;
+color:#402020;
+
+}
+
+header{
+
+background:#fff8f0;
+padding:20px;
+
+text-align:center;
+
+box-shadow:0 3px 12px rgba(0,0,0,.1);
+
+}
+
+.logo{
+
+width:170px;
+
+margin:auto;
+
+display:block;
+
+}
+
+.hero{
+
+width:100%;
+border-radius:20px;
+margin-top:15px;
+
+}
+
+.hero img{
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+section{
+
+max-width:1300px;
+
+margin:auto;
+
+padding:40px 20px;
+
+}
+
+h2{
+
+font-family:Lobster;
+font-size:42px;
+color:#6b0f1a;
+text-align:center;
+margin-bottom:35px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:white;
+
+border-radius:20px;
+
+overflow:hidden;
+
+box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+transition:.3s;
+
+border:3px solid #f3dfc8;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.card img{
+
+width:100%;
+
+height:260px;
+
+object-fit:cover;
+
+}
+
+.content{
+
+padding:20px;
+
+}
+
+.content h3{
+
+font-family:Lobster;
+
+font-size:36px;
+
+color:#6b0f1a;
+
+}
+
+.price{
+
+font-size:28px;
+
+color:#c92d39;
+
+font-weight:bold;
+
+margin:10px 0;
+
+}
+
+.desc{
+
+line-height:1.8;
+
+font-size:16px;
+
+margin-bottom:20px;
+
+}
+
+.tagline{
+
+color:#c22d38;
+
+font-style:italic;
+
+font-size:17px;
+
+margin-bottom:20px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+background:#25D366;
+
+color:white;
+
+padding:14px 28px;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.btn:hover{
+
+background:#169f4d;
+
+}
+
+footer{
+
+background:#8f1d2c;
+
+color:white;
+
+padding:30px;
+
+margin-top:60px;
+
+}
+
+.footer{
+
+display:flex;
+
+justify-content:space-between;
+
+flex-wrap:wrap;
+
+gap:20px;
+
+}
+
+.footer a{
+
+color:white;
+
+text-decoration:none;
+
+}
+
+.whatsapp{
+
+position:fixed;
+
+right:20px;
+
+bottom:20px;
+
+background:#25D366;
+
+width:70px;
+
+height:70px;
+
+border-radius:50%;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:35px;
+
+text-decoration:none;
+
+color:white;
+
+box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="images/logo.png" class="logo">
+
+<div class="hero">
+
+<img src="images/hero-banner.png">
+
+</div>
+
+</header>
+
+<section>
+
+<h2>Our Homemade Menu</h2>
+
+<div class="grid">
+
+<!-- Black Sambo -->
+
+<div class="card">
+
+<img src="images/black-sambo.jpg">
+
+<div class="content">
+
+<h3>Black Sambo</h3>
+
+<div class="price">4 SR / pc</div>
+
+<div class="desc">
+
+A rich and velvety layered dessert featuring creamy panna cotta topped with smooth dark chocolate.
+
+</div>
+
+<div class="tagline">
+
+Silky. Chocolatey. Simply Irresistible.
+
+</div>
+
+<a class="btn"
+
+href="https://wa.me/966507425408?text=Hi! I want to order Black Sambo">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Baked Sushi -->
+
+<div class="card">
+
+<img src="images/baked-sushi.jpg">
+
+<div class="content">
+
+<h3>Baked Sushi (Kani)</h3>
+
+<div class="price">25 SR</div>
+
+<div class="desc">
+
+Warm and comforting sushi bake loaded with kani, creamy mayo and served with 2 packs of nori.
+
+</div>
+
+<div class="tagline">
+
+Creamy. Savory. Crowd Favorite.
+
+</div>
+
+<a class="btn"
+
+href="https://wa.me/966507425408?text=Hi! I want to order Baked Sushi">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Kutsinta -->
+
+<div class="card">
+
+<img src="images/kutsinta.jpg">
+
+<div class="content">
+
+<h3>Kutsinta Traditional</h3>
+
+<div class="price">15 SR</div>
+
+<div class="desc">
+
+Classic Filipino delicacy with malagkit.
+
+Available:
+
+Yema
+
+Cheese
+
+</div>
+
+<div class="tagline">
+
+Chewy. Sweet. Timeless.
+
+</div>
+
+<a class="btn"
+
+href="https://wa.me/966507425408?text=Hi! I want to order Kutsinta">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Cassava -->
+
+<div class="card">
+
+<img src="images/cassava-cake.jpg">
+
+<div class="content">
+
+<h3>Cassava Cake</h3>
+
+<div class="price">
+
+Small 10 SR<br>
+
+Medium 20 SR<br>
+
+Large 35 SR
+
+</div>
+
+<div class="desc">
+
+Soft, chewy and baked fresh everyday.
+
+</div>
+
+<div class="tagline">
+
+Soft. Chewy. Comfort in Every Bite.
+
+</div>
+
+<a class="btn"
+
+href="https://wa.me/966507425408?text=Hi! I want to order Cassava Cake">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+<!-- Empanada -->
+
+<div class="card">
+
+<img src="images/creamy-empanada.jpg">
+
+<div class="content">
+
+<h3>Creamy Empanada</h3>
+
+<div class="price">
+
+4.50 SR / pc
+
+</div>
+
+<div class="desc">
+
+Golden flaky pastry filled with rich creamy chicken filling.
+
+</div>
+
+<div class="tagline">
+
+Crispy Outside. Creamy Inside.
+
+</div>
+
+<a class="btn"
+
+href="https://wa.me/966507425408?text=Hi! I want to order Creamy Empanada">
+
+Order via WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer">
+
+<div>
+
+<h3>Alcamia Homemade Goodness</h3>
+
+<p>Made With Love</p>
+
+</div>
+
+<div>
+
+Facebook
+
+<br>
+
+Alcamia homemadegoodness
+
+</div>
+
+<div>
+
+Instagram
+
+<br>
+
+@alcamia.homemadegoodness
+
+</div>
+
+<div>
+
+WhatsApp
+
+<br>
+
++966507425408
+
+</div>
+
+</div>
+
+</footer>
+
+<a
+
+class="whatsapp"
+
+href="https://wa.me/966507425408">
+
+💬
+
+</a>
+<script src="script.js"></script>
+</body>
+</html>

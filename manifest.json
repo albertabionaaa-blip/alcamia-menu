@@ -1,0 +1,57 @@
+{
+  "name": "Alcamia Homemade Goodness",
+  "short_name": "Alcamia",
+  "description": "Homemade Filipino desserts and savory favorites made with love. Order directly via WhatsApp.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8F1",
+  "theme_color": "#6B0F1A",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "food",
+    "restaurant",
+    "shopping"
+  ],
+  "shortcuts": [
+    {
+      "name": "Order on WhatsApp",
+      "short_name": "Order",
+      "description": "Start an order via WhatsApp",
+      "url": "https://wa.me/966507425408",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "View Menu",
+      "short_name": "Menu",
+      "description": "Browse the Alcamia menu",
+      "url": "./#menu",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

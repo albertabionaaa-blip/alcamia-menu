@@ -1,0 +1,14 @@
+```txt
+# ==========================================
+# Alcamia Homemade Goodness
+# robots.txt
+# ==========================================
+
+User-agent: *
+
+# Allow all pages to be crawled
+Allow: /
+
+# Sitemap location
+Sitemap: https://albertabionaaa-blip.github.io/alcamia-menu/sitemap.xml
+```
